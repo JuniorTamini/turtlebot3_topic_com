@@ -29,6 +29,8 @@ setup(
         'console_scripts': [
             'cmd_publisher=turtlebot3_topic.cmd_publisher:main',
             'cmd_subscriber=turtlebot3_topic.cmd_subscriber:main',
+            'odom_listener=turtlebot3_topic.odom_listener:main',
+
         ],
     },
 )
