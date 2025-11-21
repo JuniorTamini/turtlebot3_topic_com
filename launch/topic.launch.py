@@ -9,6 +9,6 @@ def generate_launch_description():
              executable='cmd_subscriber'),
         Node(package='turtlebot3_topic',
              executable='odom_listener'),
-        #Node(package='turtlebot3_smart_controller',
-             #executable='laser_listener'),
+        Node(package='turtlebot3_topic',
+             executable='laser_listener'),
     ])
